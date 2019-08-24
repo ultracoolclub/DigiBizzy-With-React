@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Zetta&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -7,47 +14,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+
 
 .header {
-  background-color: #253050;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  background-color: #232323;
-  color: turquoise;
-  font-size: 50px;
-  margin: 0;
-  height: 100px;
+  background-image: linear-gradient(#f2ccff, #ffccff, #ffccf2, #ffcce6, #ffccd9, #ffcccc);
+  height: 10em;
+  font-family: 'Lexend Zetta', sans-serif;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  box-shadow: 0 0 6px rgba(0,0,0,.5);
-  width: 600px;
-}
-
-.navBar {
-
 }
 
 
-.navList {
-  display: flex;
-  list-style-type: none;
-}
-
-.navList li {
-  padding-right: 30px;
-  font-size: 1.2em;
-}
-
-.navList li:last-child {
-  padding: 0;
-}

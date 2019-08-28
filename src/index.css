@@ -1,23 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Zetta&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arimo|Gayathri|Lexend+Peta|PT+Sans+Narrow|Rubik|Titillium+Web&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
+
+html {
+  height: 100vh;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(#f2ccff, #ffccff, #ffccf2, #ffcce6, #ffccd9 25%, #ffcccc);
 }
 
 
-
 .header {
-  background-image: linear-gradient(#f2ccff, #ffccff, #ffccf2, #ffcce6, #ffccd9, #ffcccc);
   height: 10em;
   font-family: 'Lexend Zetta', sans-serif;
   display: flex;
@@ -25,5 +20,24 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+.header:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: azure;
+}
+
+.mainContent {
+  font-family: 'Gayathri', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
 
 
